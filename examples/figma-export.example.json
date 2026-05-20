@@ -1,0 +1,13 @@
+{
+  "figmaUrl": "https://www.figma.com/file/<fileKey>/<name>?node-id=1-2",
+  "cocosProjectRoot": "/path/to/cocos/project",
+  "prefabPath": "assets/prefabs/ui/lobby/LobbyPanel.prefab",
+  "textureDir": "assets/textures/ui/lobby",
+  "overwrite": false,
+  "backup": true,
+  "dryRun": false,
+  "validateOnly": false,
+  "scale": 1,
+  "format": "png",
+  "cocosVersion": "auto"
+}
