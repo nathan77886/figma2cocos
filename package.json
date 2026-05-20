@@ -1,0 +1,46 @@
+{
+  "name": "figma-cocos-mcp",
+  "version": "0.1.0",
+  "description": "Local MCP + CLI for exporting Figma to Cocos assets",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write .",
+    "start": "node dist/index.js",
+    "cli": "node dist/cli.js",
+    "dev": "tsx src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathan77886/figma2cocos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/nathan77886/figma2cocos/issues"
+  },
+  "homepage": "https://github.com/nathan77886/figma2cocos#readme",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "commander": "^14.0.3",
+    "dotenv": "^17.4.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "@typescript-eslint/eslint-plugin": "^8.59.4",
+    "@typescript-eslint/parser": "^8.59.4",
+    "eslint": "^10.4.0",
+    "prettier": "^3.8.3",
+    "tsx": "^4.22.3",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.7"
+  }
+}

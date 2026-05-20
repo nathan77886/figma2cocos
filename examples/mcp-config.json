@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "figma-cocos-mcp": {
+      "command": "node",
+      "args": ["/absolute/path/to/figma-cocos-mcp/dist/index.js"],
+      "env": {
+        "FIGMA_TOKEN": "${FIGMA_TOKEN}"
+      }
+    }
+  }
+}
